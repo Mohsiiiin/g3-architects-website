@@ -6,3 +6,70 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+  margin: 0 ;
+}
+
+/* navbar section style  */
+.architect-header{
+  margin: 0 auto;
+  background-color: rgba(255, 143, 14, 0.226);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 270px;
+}
+.nav-section{
+display: flex;
+list-style: none;
+font-size: 18px;
+}
+.nav-link{
+  margin-right: 25px;
+  text-decoration: none;
+  color: rgba(66, 66, 66, 1);
+}
+.band-name{
+  font-weight:700;
+  font-size: 45px;
+  color: #131313;
+}
+ /* head banner style */
+ .head-banner{
+  text-align: center;
+ }
+ .banner-title{
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 30px;
+ }
+ .banner-detalis{
+  padding: 0 525px;
+  color: rgba(114, 114, 114, 1);
+  margin-bottom: 30px;
+ }
+ .btn-primary{
+  background-color: #FF900E;
+  color: #FFFFFF;
+  padding: 20px 25px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-bottom: 40px;
+ }
+ .banner-img{
+  padding: 0 50px;
+  margin-bottom: 45PX;
+ }
+
+ @media screen and (max-width: 576px) {
+  
+  .navbar, .nav-section{
+    flex-direction: column;
+    margin-left: -50px;
+  }
+
+ }
